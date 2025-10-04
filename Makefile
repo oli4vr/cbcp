@@ -3,7 +3,7 @@ all:
 	gcc cbps.c -o cbps -lX11 -O3
 
 install:
-	mkdir ~/bin 2>/dev/null
+	echo "mkdir ~/bin 2>/dev/null; exit 0;" | /bin/bash
 	cp cbcp ~/bin
 	cp cbps ~/bin
 
