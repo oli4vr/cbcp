@@ -1,3 +1,8 @@
+/* cbps.c
+ * by oli4vr
+ *
+ * Paste the X11 clipboard content to stdout
+ */
 #include <X11/Xlib.h>
 #include <X11/Xatom.h>
 #include <stdio.h>
