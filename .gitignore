@@ -57,3 +57,6 @@ dkms.conf
 # executables
 cbcp
 cbps
+
+# deb files
+*.deb
