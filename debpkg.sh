@@ -1,6 +1,6 @@
 #!/bin/bash
 ### debpkg.sh
-###  by darkQ
+###  by oli4vr
 ###
 VERSION=1.0
 SUBVER=$(date "+%Y %j" | awk '{printf("%02d%03d\n",$(1)-2000,$2);}')
@@ -33,7 +33,7 @@ Version: ${VERSION}-${SUBVER}
 Section: base
 Priority: optional
 Architecture: all
-Maintainer: darkQ
+Maintainer: oli4vr
 Description: ${DESCRIPTION}
 EOF
 
