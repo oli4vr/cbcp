@@ -12,6 +12,8 @@ cbcp < or_copy_content_of_file_to_clipboard.txt
 cbps > paste_content_of_clipboard_to_file.txt
 ```
 
+You can combine it with X11 forwarding to copy/paste text information from remote servers via multiple ssh -X jumps.
+
 ## Build and Install
 Option 1 : On Debian based distributions (debian, ubuntu, mint, ...)
 ```bash
